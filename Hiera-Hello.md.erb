@@ -1,0 +1,19 @@
+Hello from Hiera!
+==================
+
+This MD demonstrates the values gotten out of Hiera thru puppet.
+Hostname: <%= @hostname %>
+
+Priority lookup
+----------------
+
+ * String: <%= @hello_string_priority %>
+ * Array: <%= @hello_array_priority %>  
+ * Hash Lookup: <%= @hello_hash_priority %>
+
+Merged lookup
+--------------
+
+ * String: <%= @hello_string_merged %>
+ * Array: <%= @hello_array_merged %>  
+ * Hash Lookup: <%= @hello_hash_merged %>

@@ -1,0 +1,12 @@
+# Hiera common datasource
+---
+# String
+hello_string: hello-common-data
+# Array
+hello_array:
+ - hello-common1
+ - hello-common2
+# Hash
+hello_hash:
+    hello_common_key: hello_data_common
+
